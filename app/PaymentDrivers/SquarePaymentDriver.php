@@ -586,7 +586,7 @@ class SquarePaymentDriver extends BaseDriver
         $body->setEmailAddress($this->client->present()->email());
         $body->setAddress($billing_address);
         $body->setReferenceId($this->client->number);
-        $body->setNote('Created by Invoice Ninja.');
+        $body->setNote('Created by Rahul Bhardwaj.');
 
         $api_response = $this->init()
                              ->square
